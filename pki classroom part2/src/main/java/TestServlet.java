@@ -32,7 +32,7 @@ public class TestServlet extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		PrintWriter pw = response.getWriter();
 		response.setContentType("text/html");
-		pw.println("<h1>Hello!</h1>");
+		pw.println("<h1>Hello World2!</h1>");
 	}
 
 	/**
